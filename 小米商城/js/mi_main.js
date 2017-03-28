@@ -305,7 +305,7 @@ var video=[
 $(".video-main ul li .mi_video").click(function(){
 	$("#video").show();
 	$("#video-vessel").css({"opacity":"1"}).slideDown(500,function(){
-		var path="http://hd.mi.com/f/zt/hd/miplayer2/index.html?vurl="+video[mark].src+"&poster="+video[mark].poster;
+		var path="https://hd.mi.com/f/zt/hd/miplayer2/index.html?vurl="+video[mark].src+"&poster="+video[mark].poster;
 		$("#video-vessel span").text(title);//添加视频标题
 		$(this).append("<iframe width='880px' height='536px' src='"+path+"' frameborder='0' allowfullscreen></iframe>");
 	})
